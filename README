@@ -1,0 +1,5 @@
+A set of shell scripts to enable the monitoring of Panasonic webcam feeds.  Works best with OpenWrt running lighttpd as the server.
+
+There are two main files:
+firelens_cgi.sh:  Installs on the cgi-bin directory of a web server.  Point the webcam to HTTP its images to this server.
+firelens_cron.sh:  Installs on a server machine.  Requires mencoder.
